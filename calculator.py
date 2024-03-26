@@ -12,17 +12,17 @@ def calculator():
         print ("Desculpe esta calculadora ainda não suporta outras operaçãoes. Por favor, execute o programa novamente.")
         return
 
-    fisrt_number = int(input("Digite o primeiro número: "))
+    first_number = int(input("Digite o primeiro número: "))
     second_number = int(input("Digite o segundo número: "))
 
     if (operation == 1):
-        print("O resultado é", fisrt_number + second_number)
+        print("O resultado é", first_number + second_number)
     elif(operation == 2):
-        print("O resultado é", fisrt_number - second_number)    
+        print("O resultado é", first_number - second_number)    
     elif(operation == 3):
-        print("O resultado é", fisrt_number * second_number)
+        print("O resultado é", first_number * second_number)
     else:
-        print("O resultado é", fisrt_number / second_number)
+        print("O resultado é", first_number / second_number)
 
         calculator_again()
 
